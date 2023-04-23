@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2AF0ED5A29F5B6BB005E23C8 /* Enviroment.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AF0ED4F29F5B6BB005E23C8 /* Enviroment.cpp */; };
+		2AF0ED5B29F5B6BB005E23C8 /* Enviroment.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AF0ED4F29F5B6BB005E23C8 /* Enviroment.cpp */; };
+		2AF0ED5C29F5B6BB005E23C8 /* DS_Element.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AF0ED5029F5B6BB005E23C8 /* DS_Element.cpp */; };
+		2AF0ED5D29F5B6BB005E23C8 /* DS_Element.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AF0ED5029F5B6BB005E23C8 /* DS_Element.cpp */; };
+		2AF0ED5E29F5B6BB005E23C8 /* DS_Number.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AF0ED5129F5B6BB005E23C8 /* DS_Number.cpp */; };
+		2AF0ED5F29F5B6BB005E23C8 /* DS_Number.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AF0ED5129F5B6BB005E23C8 /* DS_Number.cpp */; };
+		2AF0ED6029F5B6BB005E23C8 /* Utilites.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AF0ED5229F5B6BB005E23C8 /* Utilites.cpp */; };
+		2AF0ED6129F5B6BB005E23C8 /* Utilites.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AF0ED5229F5B6BB005E23C8 /* Utilites.cpp */; };
+		2AF0ED6229F5B6BB005E23C8 /* DS_DataTime.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AF0ED5329F5B6BB005E23C8 /* DS_DataTime.cpp */; };
+		2AF0ED6329F5B6BB005E23C8 /* DS_DataTime.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AF0ED5329F5B6BB005E23C8 /* DS_DataTime.cpp */; };
+		2AF0ED6429F5B6BB005E23C8 /* DB_TableFuncs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AF0ED5429F5B6BB005E23C8 /* DB_TableFuncs.cpp */; };
+		2AF0ED6529F5B6BB005E23C8 /* DB_TableFuncs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AF0ED5429F5B6BB005E23C8 /* DB_TableFuncs.cpp */; };
+		2AF0ED6629F5B6BB005E23C8 /* DS_Text.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AF0ED5529F5B6BB005E23C8 /* DS_Text.cpp */; };
+		2AF0ED6729F5B6BB005E23C8 /* DS_Text.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AF0ED5529F5B6BB005E23C8 /* DS_Text.cpp */; };
+		2AF0ED6829F5B6BC005E23C8 /* tests.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AF0ED5629F5B6BB005E23C8 /* tests.cpp */; };
+		2AF0ED6929F5B6BC005E23C8 /* tests.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AF0ED5629F5B6BB005E23C8 /* tests.cpp */; };
+		2AF0ED6A29F5B6BC005E23C8 /* DS_Base.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AF0ED5729F5B6BB005E23C8 /* DS_Base.cpp */; };
+		2AF0ED6B29F5B6BC005E23C8 /* DS_Base.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AF0ED5729F5B6BB005E23C8 /* DS_Base.cpp */; };
+		2AF0ED6C29F5B6BC005E23C8 /* DB_MainFuncs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AF0ED5829F5B6BB005E23C8 /* DB_MainFuncs.cpp */; };
+		2AF0ED6D29F5B6BC005E23C8 /* DB_MainFuncs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AF0ED5829F5B6BB005E23C8 /* DB_MainFuncs.cpp */; };
+		2AF0ED6E29F5B6BC005E23C8 /* Init.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AF0ED5929F5B6BB005E23C8 /* Init.cpp */; };
+		2AF0ED6F29F5B6BC005E23C8 /* Init.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AF0ED5929F5B6BB005E23C8 /* Init.cpp */; };
+		2AF0ED7729F5B6C6005E23C8 /* Utilites.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AF0ED7129F5B6C6005E23C8 /* Utilites.h */; };
+		2AF0ED7829F5B6C6005E23C8 /* Utilites.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AF0ED7129F5B6C6005E23C8 /* Utilites.h */; };
+		2AF0ED7929F5B6C6005E23C8 /* DataSetBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AF0ED7229F5B6C6005E23C8 /* DataSetBase.h */; };
+		2AF0ED7A29F5B6C6005E23C8 /* DataSetBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AF0ED7229F5B6C6005E23C8 /* DataSetBase.h */; };
+		2AF0ED7B29F5B6C6005E23C8 /* dbDataTime.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AF0ED7329F5B6C6005E23C8 /* dbDataTime.h */; };
+		2AF0ED7C29F5B6C6005E23C8 /* dbDataTime.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AF0ED7329F5B6C6005E23C8 /* dbDataTime.h */; };
+		2AF0ED7D29F5B6C6005E23C8 /* DataBox.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AF0ED7429F5B6C6005E23C8 /* DataBox.h */; };
+		2AF0ED7E29F5B6C6005E23C8 /* DataBox.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AF0ED7429F5B6C6005E23C8 /* DataBox.h */; };
+		2AF0ED7F29F5B6C6005E23C8 /* Enviroment.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AF0ED7529F5B6C6005E23C8 /* Enviroment.h */; };
+		2AF0ED8029F5B6C6005E23C8 /* Enviroment.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AF0ED7529F5B6C6005E23C8 /* Enviroment.h */; };
+		2AF0ED8129F5B6C6005E23C8 /* DataSetClases.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AF0ED7629F5B6C6005E23C8 /* DataSetClases.h */; };
+		2AF0ED8229F5B6C6005E23C8 /* DataSetClases.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AF0ED7629F5B6C6005E23C8 /* DataSetClases.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2AF0ED4D29F5B575005E23C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AF0ED4F29F5B6BB005E23C8 /* Enviroment.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Enviroment.cpp; sourceTree = "<group>"; };
+		2AF0ED5029F5B6BB005E23C8 /* DS_Element.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DS_Element.cpp; sourceTree = "<group>"; };
+		2AF0ED5129F5B6BB005E23C8 /* DS_Number.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DS_Number.cpp; sourceTree = "<group>"; };
+		2AF0ED5229F5B6BB005E23C8 /* Utilites.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Utilites.cpp; sourceTree = "<group>"; };
+		2AF0ED5329F5B6BB005E23C8 /* DS_DataTime.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DS_DataTime.cpp; sourceTree = "<group>"; };
+		2AF0ED5429F5B6BB005E23C8 /* DB_TableFuncs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DB_TableFuncs.cpp; sourceTree = "<group>"; };
+		2AF0ED5529F5B6BB005E23C8 /* DS_Text.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DS_Text.cpp; sourceTree = "<group>"; };
+		2AF0ED5629F5B6BB005E23C8 /* tests.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tests.cpp; sourceTree = "<group>"; };
+		2AF0ED5729F5B6BB005E23C8 /* DS_Base.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DS_Base.cpp; sourceTree = "<group>"; };
+		2AF0ED5829F5B6BB005E23C8 /* DB_MainFuncs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DB_MainFuncs.cpp; sourceTree = "<group>"; };
+		2AF0ED5929F5B6BB005E23C8 /* Init.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Init.cpp; sourceTree = "<group>"; };
+		2AF0ED7129F5B6C6005E23C8 /* Utilites.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilites.h; sourceTree = "<group>"; };
+		2AF0ED7229F5B6C6005E23C8 /* DataSetBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataSetBase.h; sourceTree = "<group>"; };
+		2AF0ED7329F5B6C6005E23C8 /* dbDataTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dbDataTime.h; sourceTree = "<group>"; };
+		2AF0ED7429F5B6C6005E23C8 /* DataBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataBox.h; sourceTree = "<group>"; };
+		2AF0ED7529F5B6C6005E23C8 /* Enviroment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Enviroment.h; sourceTree = "<group>"; };
+		2AF0ED7629F5B6C6005E23C8 /* DataSetClases.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataSetClases.h; sourceTree = "<group>"; };
+		6F7B061E1DA3349E0005CA55 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		6FFC39E41D49571000806C66 /* DataBox.fmplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataBox.fmplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FFC3A0A1D49764900806C66 /* DataBoxIOS.fmplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataBoxIOS.fmplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FFC3A331D49972700806C66 /* FMWrapper */ = {isa = PBXFileReference; lastKnownFileType = folder; name = FMWrapper; path = ../Headers/FMWrapper; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6FFC39E01D49571000806C66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FFC3A031D49764900806C66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AF0ED4E29F5B6BB005E23C8 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				2AF0ED4F29F5B6BB005E23C8 /* Enviroment.cpp */,
+				2AF0ED5029F5B6BB005E23C8 /* DS_Element.cpp */,
+				2AF0ED5129F5B6BB005E23C8 /* DS_Number.cpp */,
+				2AF0ED5229F5B6BB005E23C8 /* Utilites.cpp */,
+				2AF0ED5329F5B6BB005E23C8 /* DS_DataTime.cpp */,
+				2AF0ED5429F5B6BB005E23C8 /* DB_TableFuncs.cpp */,
+				2AF0ED5529F5B6BB005E23C8 /* DS_Text.cpp */,
+				2AF0ED5629F5B6BB005E23C8 /* tests.cpp */,
+				2AF0ED5729F5B6BB005E23C8 /* DS_Base.cpp */,
+				2AF0ED5829F5B6BB005E23C8 /* DB_MainFuncs.cpp */,
+				2AF0ED5929F5B6BB005E23C8 /* Init.cpp */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		2AF0ED7029F5B6C6005E23C8 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				2AF0ED7129F5B6C6005E23C8 /* Utilites.h */,
+				2AF0ED7229F5B6C6005E23C8 /* DataSetBase.h */,
+				2AF0ED7329F5B6C6005E23C8 /* dbDataTime.h */,
+				2AF0ED7429F5B6C6005E23C8 /* DataBox.h */,
+				2AF0ED7529F5B6C6005E23C8 /* Enviroment.h */,
+				2AF0ED7629F5B6C6005E23C8 /* DataSetClases.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		6F7B061D1DA3349E0005CA55 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F7B061E1DA3349E0005CA55 /* Accelerate.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6FFC39DA1D49571000806C66 = {
+			isa = PBXGroup;
+			children = (
+				2AF0ED7029F5B6C6005E23C8 /* Headers */,
+				2AF0ED4E29F5B6BB005E23C8 /* Source */,
+				2AF0ED4D29F5B575005E23C8 /* Info.plist */,
+				6FFC3A331D49972700806C66 /* FMWrapper */,
+				6FFC39E51D49571000806C66 /* Products */,
+				6F7B061D1DA3349E0005CA55 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+			usesTabs = 1;
+		};
+		6FFC39E51D49571000806C66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6FFC39E41D49571000806C66 /* DataBox.fmplugin */,
+				6FFC3A0A1D49764900806C66 /* DataBoxIOS.fmplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6FFC39E11D49571000806C66 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AF0ED7929F5B6C6005E23C8 /* DataSetBase.h in Headers */,
+				2AF0ED7B29F5B6C6005E23C8 /* dbDataTime.h in Headers */,
+				2AF0ED8129F5B6C6005E23C8 /* DataSetClases.h in Headers */,
+				2AF0ED7D29F5B6C6005E23C8 /* DataBox.h in Headers */,
+				2AF0ED7F29F5B6C6005E23C8 /* Enviroment.h in Headers */,
+				2AF0ED7729F5B6C6005E23C8 /* Utilites.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FFC3A041D49764900806C66 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AF0ED7A29F5B6C6005E23C8 /* DataSetBase.h in Headers */,
+				2AF0ED7C29F5B6C6005E23C8 /* dbDataTime.h in Headers */,
+				2AF0ED8229F5B6C6005E23C8 /* DataSetClases.h in Headers */,
+				2AF0ED7E29F5B6C6005E23C8 /* DataBox.h in Headers */,
+				2AF0ED8029F5B6C6005E23C8 /* Enviroment.h in Headers */,
+				2AF0ED7829F5B6C6005E23C8 /* Utilites.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6FFC39E31D49571000806C66 /* DataBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FFC39EC1D49571000806C66 /* Build configuration list for PBXNativeTarget "DataBox" */;
+			buildPhases = (
+				6FFC39DF1D49571000806C66 /* Sources */,
+				6FFC39E01D49571000806C66 /* Frameworks */,
+				6FFC39E11D49571000806C66 /* Headers */,
+				6FFC39E21D49571000806C66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DataBox;
+			productName = FMMiniPlugIn;
+			productReference = 6FFC39E41D49571000806C66 /* DataBox.fmplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+		6FFC3A011D49764900806C66 /* DataBoxIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FFC3A071D49764900806C66 /* Build configuration list for PBXNativeTarget "DataBoxIOS" */;
+			buildPhases = (
+				6FFC3A021D49764900806C66 /* Sources */,
+				6FFC3A031D49764900806C66 /* Frameworks */,
+				6FFC3A041D49764900806C66 /* Headers */,
+				6FFC3A061D49764900806C66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DataBoxIOS;
+			productName = FMMiniPlugIn;
+			productReference = 6FFC3A0A1D49764900806C66 /* DataBoxIOS.fmplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6FFC39DB1D49571000806C66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "";
+				TargetAttributes = {
+					6FFC39E31D49571000806C66 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					6FFC3A011D49764900806C66 = {
+						DevelopmentTeam = J6K4T76U7W;
+					};
+				};
+			};
+			buildConfigurationList = 6FFC39DE1D49571000806C66 /* Build configuration list for PBXProject "DataBox" */;
+			compatibilityVersion = "Xcode 11.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+			);
+			mainGroup = 6FFC39DA1D49571000806C66;
+			productRefGroup = 6FFC39E51D49571000806C66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6FFC39E31D49571000806C66 /* DataBox */,
+				6FFC3A011D49764900806C66 /* DataBoxIOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6FFC39E21D49571000806C66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FFC3A061D49764900806C66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6FFC39DF1D49571000806C66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AF0ED6629F5B6BB005E23C8 /* DS_Text.cpp in Sources */,
+				2AF0ED6229F5B6BB005E23C8 /* DS_DataTime.cpp in Sources */,
+				2AF0ED6029F5B6BB005E23C8 /* Utilites.cpp in Sources */,
+				2AF0ED5A29F5B6BB005E23C8 /* Enviroment.cpp in Sources */,
+				2AF0ED5C29F5B6BB005E23C8 /* DS_Element.cpp in Sources */,
+				2AF0ED6A29F5B6BC005E23C8 /* DS_Base.cpp in Sources */,
+				2AF0ED6C29F5B6BC005E23C8 /* DB_MainFuncs.cpp in Sources */,
+				2AF0ED6829F5B6BC005E23C8 /* tests.cpp in Sources */,
+				2AF0ED6429F5B6BB005E23C8 /* DB_TableFuncs.cpp in Sources */,
+				2AF0ED6E29F5B6BC005E23C8 /* Init.cpp in Sources */,
+				2AF0ED5E29F5B6BB005E23C8 /* DS_Number.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FFC3A021D49764900806C66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AF0ED6729F5B6BB005E23C8 /* DS_Text.cpp in Sources */,
+				2AF0ED6329F5B6BB005E23C8 /* DS_DataTime.cpp in Sources */,
+				2AF0ED6129F5B6BB005E23C8 /* Utilites.cpp in Sources */,
+				2AF0ED5B29F5B6BB005E23C8 /* Enviroment.cpp in Sources */,
+				2AF0ED5D29F5B6BB005E23C8 /* DS_Element.cpp in Sources */,
+				2AF0ED6B29F5B6BC005E23C8 /* DS_Base.cpp in Sources */,
+				2AF0ED6D29F5B6BC005E23C8 /* DB_MainFuncs.cpp in Sources */,
+				2AF0ED6929F5B6BC005E23C8 /* tests.cpp in Sources */,
+				2AF0ED6529F5B6BB005E23C8 /* DB_TableFuncs.cpp in Sources */,
+				2AF0ED6F29F5B6BC005E23C8 /* Init.cpp in Sources */,
+				2AF0ED5F29F5B6BB005E23C8 /* DS_Number.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6FFC39EA1D49571000806C66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_LINK_OBJC_RUNTIME = NO;
+				CLANG_WARN_ASSIGN_ENUM = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_CXX0X_EXTENSIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NULLABLE_TO_NONNULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CLANG_WARN__EXIT_TIME_DESTRUCTORS = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1.4.0.1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
+				GCC_TREAT_INCOMPATIBLE_POINTER_TYPE_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = YES;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = ../Headers;
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_OUTPUT_FORMAT = binary;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-fno-constant-cfstrings",
+					"$(OTHER_CFLAGS)",
+				);
+				PRODUCT_NAME = "";
+				SKIP_INSTALL = YES;
+				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = fmplugin;
+			};
+			name = Debug;
+		};
+		6FFC39EB1D49571000806C66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_LINK_OBJC_RUNTIME = NO;
+				CLANG_WARN_ASSIGN_ENUM = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_CXX0X_EXTENSIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NULLABLE_TO_NONNULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CLANG_WARN__EXIT_TIME_DESTRUCTORS = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1.4.0.1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
+				GCC_TREAT_INCOMPATIBLE_POINTER_TYPE_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = YES;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = ../Headers;
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_OUTPUT_FORMAT = binary;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-fno-constant-cfstrings",
+					"$(OTHER_CFLAGS)",
+				);
+				PRODUCT_NAME = "";
+				SKIP_INSTALL = YES;
+				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = fmplugin;
+			};
+			name = Release;
+		};
+		6FFC39ED1D49571000806C66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CURRENT_PROJECT_VERSION = 1.0.1020;
+				DEVELOPMENT_TEAM = P4X5K39NRB;
+				FRAMEWORK_SEARCH_PATHS = ../Libraries/Mac;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				MARKETING_VERSION = "DataBox Version 1.0.1020";
+				OTHER_LDFLAGS = (
+					"-weak_framework",
+					FMWrapper,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.dragonfly.DataBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6FFC39EE1D49571000806C66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CURRENT_PROJECT_VERSION = 1.0.1020;
+				DEVELOPMENT_TEAM = P4X5K39NRB;
+				FRAMEWORK_SEARCH_PATHS = ../Libraries/Mac;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				MARKETING_VERSION = "DataBox Version 1.0.1020";
+				OTHER_LDFLAGS = (
+					"-weak_framework",
+					FMWrapper,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.dragonfly.DataBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6FFC3A081D49764900806C66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1.0.1020;
+				FRAMEWORK_SEARCH_PATHS = "../Libraries/${PLATFORM_NAME}";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/Frameworks";
+				MARKETING_VERSION = "DataBox Version 1.0.1020";
+				OTHER_LDFLAGS = (
+					"-weak_framework",
+					iOSAppSDK,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.dragonfly.DataBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6FFC3A091D49764900806C66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1.0.1020;
+				FRAMEWORK_SEARCH_PATHS = "../Libraries/${PLATFORM_NAME}";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/Frameworks";
+				MARKETING_VERSION = "DataBox Version 1.0.1020";
+				OTHER_LDFLAGS = (
+					"-weak_framework",
+					iOSAppSDK,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.dragonfly.DataBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6FFC39DE1D49571000806C66 /* Build configuration list for PBXProject "DataBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FFC39EA1D49571000806C66 /* Debug */,
+				6FFC39EB1D49571000806C66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FFC39EC1D49571000806C66 /* Build configuration list for PBXNativeTarget "DataBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FFC39ED1D49571000806C66 /* Debug */,
+				6FFC39EE1D49571000806C66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FFC3A071D49764900806C66 /* Build configuration list for PBXNativeTarget "DataBoxIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FFC3A081D49764900806C66 /* Debug */,
+				6FFC3A091D49764900806C66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6FFC39DB1D49571000806C66 /* Project object */;
+}
