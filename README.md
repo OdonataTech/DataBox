@@ -14,7 +14,7 @@ These sources contain only the Xcode project file for the macOS version. For com
 
 The files structure with the Filemaker plugin frameworks file can look like this:
 
-    DataBox (AppleSilicon)
+    DataBoxPlugin
         DataBox
             Headers
                 DataBox.h
