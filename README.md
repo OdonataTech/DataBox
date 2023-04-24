@@ -33,5 +33,5 @@ The files structure with the Filemaker plugin frameworks file can look like this
             Win
             ...
         
-If you want to make a version for Windows you can use MiniExample from FileMaker PlugInSDK. MiniExample contains needed project files for macOS and for Visual Studio. MiniExample contains needed project files for macOS and for Visual Studio. Deploy MiniExample on your Windows machine, delete FMMiniPlugIn.cpp and add the Databox's .h and .cpp files to the project.
+If you want to make a version for Windows you can use MiniExample from FileMaker PlugInSDK. MiniExample contains needed project files for macOS and for Visual Studio. If you want make version for the Windows deploy MiniExample on your Windows machine, delete FMMiniPlugIn.cpp and add the Databox's .h and .cpp files to the project.
 
